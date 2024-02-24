@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Way to Fitness Gym</title>
+    <style>
+        body{
+            font-family: 'baloo bhai',cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(gym.jpg);
+            background-size: cover;
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+           /* border: 2px solid red;*/
+        }
+        .left img{
+            width: 96px;
+            height: 63px;
+            filter: invert(100%);
+        }
+        .left div{
+            line-height: 18px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .mid{
+            display: block;
+            width: 36%;
+            margin: 29px auto;
+            /*border: 2px solid green ;*/
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 40px;
+            display: inline-block;
+            /*border: 2px solid yellow;*/
+        }
+        .navbar{
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+        .navbar li a:hover,.navebar li a:active{
+            text-decoration: underline;
+            color: aqua;
+        }
+        .btn{
+            font-family: 'baloo bhai',cursive;
+            margin: 0px 10px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+        .btn:hoven{
+            background-color: gray;
+        }
+        .container{
+            border: 2px solid green;
+            margin: 108px 80px;
+            padding: 5%;
+            width: 40%;
+            border-radius: 28px;
+        }
+        .group input{
+            font-family: 'baloo bhai',cursive;
+            text-align: center;
+            display: block;
+            width: 504px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;  
+            font-size: 25px;
+            border-radius: 9px;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+            border-radius: 15px;
+        }
+    </style> 
+</head>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="dumbell.jpg">
+            <div>Fit minds</div>
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Trainers</a></li>
+            </ul>
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+             <button class="btn">contact us</button>
+             <button class="btn">Email Us</button> 
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of vijayawada</h1>
+        <form>
+            <div class="group">
+                 <input type="text" placeholder="enter your Name">               
+            </div>
+            <div class="group">
+                <input type="text" placeholder="Enter your Age ">               
+           </div>
+           <div class="group">
+                <input type="text" placeholder="Enter your Gender">               
+           </div>
+          <div class="group">
+               <input type="text" placeholder="Enter your Phone Number">               
+         </div>
+         <div class="group">
+            <input type="text" placeholder="Enter your Locality">               
+      </div>
+         <button class="gangstar">submit</button>
+        </form>
+    </div>
+</body>
+</html>
